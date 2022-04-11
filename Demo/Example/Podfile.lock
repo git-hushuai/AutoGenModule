@@ -1,0 +1,32 @@
+PODS:
+  - Demo (0.0.1):
+    - Demo/Api (= 0.0.1)
+    - Demo/Controller (= 0.0.1)
+    - Demo/CTMediator (= 0.0.1)
+    - Demo/Model (= 0.0.1)
+    - Demo/Resources (= 0.0.1)
+    - Demo/Util (= 0.0.1)
+    - Demo/View (= 0.0.1)
+    - Demo/ViewModel (= 0.0.1)
+  - Demo/Api (0.0.1)
+  - Demo/Controller (0.0.1)
+  - Demo/CTMediator (0.0.1)
+  - Demo/Model (0.0.1)
+  - Demo/Resources (0.0.1)
+  - Demo/Util (0.0.1)
+  - Demo/View (0.0.1)
+  - Demo/ViewModel (0.0.1)
+
+DEPENDENCIES:
+  - Demo (from `..`)
+
+EXTERNAL SOURCES:
+  Demo:
+    :path: ".."
+
+SPEC CHECKSUMS:
+  Demo: 79d4a483a1ca1cff9a602d5a112274029291178f
+
+PODFILE CHECKSUM: 9c20d248420a81159762301159b9c1d37e5e3890
+
+COCOAPODS: 1.11.2

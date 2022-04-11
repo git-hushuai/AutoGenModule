@@ -1,0 +1,62 @@
+{
+  "name": "Demo",
+  "version": "0.0.1",
+  "summary": "A short description of Demo.",
+  "homepage": "https://github.com/shauike/Demo",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Condy": "ykj310@126.com"
+  },
+  "source": {
+    "git": "https://github.com/shauike/Demo.git",
+    "tag": "0.0.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "swift_versions": "5.0",
+  "requires_arc": true,
+  "static_framework": true,
+  "subspecs": [
+    {
+      "name": "Resources",
+      "resource_bundles": {
+        "Demo": [
+          "Sources/Resources/*.{xcassets,lproj}"
+        ]
+      }
+    },
+    {
+      "name": "Util",
+      "source_files": "Sources/Util/*.swift"
+    },
+    {
+      "name": "Api",
+      "source_files": "Sources/Api/*.swift"
+    },
+    {
+      "name": "Controller",
+      "source_files": "Sources/Controller/*.swift"
+    },
+    {
+      "name": "ViewModel",
+      "source_files": "Sources/ViewModel/*.swift"
+    },
+    {
+      "name": "View",
+      "source_files": "Sources/View/*.swift"
+    },
+    {
+      "name": "Model",
+      "source_files": "Sources/Model/*.swift"
+    },
+    {
+      "name": "CTMediator",
+      "source_files": "Sources/CTMediator/*.swift"
+    }
+  ],
+  "swift_version": "5.0"
+}
